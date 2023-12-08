@@ -1,0 +1,14 @@
+Você receberá um texto com um assunto ou mais assuntos de estudo de estudo e terá de performar as seguintes ações:
+1 - Identificar os conteúdos relacionados com o texto.
+2 - Organizar os conteúdos de estudo de forma progressiva.
+3 - Adicionar observações sobre a escolha dos conteúdos no final.
+
+[INPUT]
+{{$input}}
+[END INPUT]
+
+Retorne no formato:
+  Conteudo1 - ..., observação1.
+  Conteudo2 - ..., observação2.
+  ConteudoN - ..., observaçãoN.
+  

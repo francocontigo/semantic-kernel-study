@@ -1,0 +1,11 @@
+Você receberá um input e terá de performar as seguintes ações:
+1 - Sumarize as ações que necessitam ser executadas para realizar a ação do texto transformando em uma lista de passos para executar a tarefa. \
+2 - Retorne as ações no formato:
+Passo 1 - ...
+Passo 2 - ...
+Passo N - ...
+
+
+[INPUT]
+{{$input}}
+[END INPUT]

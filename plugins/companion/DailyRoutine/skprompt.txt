@@ -1,0 +1,14 @@
+Você receberá um texto delimitado por três acentos graves com tarefas separadas por vírgulas e terá de performar as seguintes ações:
+1 - Identificar as ações no texto e o tempo necessário para realizar cada uma. 
+2 - Organizar as ações de uma forma comôda a partir das 08:00 de um dia, ressaltando a pausa do almoço as 12:00.
+3 - Adicionar observações sobre a escolha das ações no final.
+
+
+[INPUT]
+{{$input}}
+[END INPUT]
+
+Retorne a ação no formato:
+  Horário1 - Ação1(Tempo Estimado).
+  Horário2 - Ação2(Tempo Estimado).
+  HorárioN - AçãoN(Tempo Estimado).

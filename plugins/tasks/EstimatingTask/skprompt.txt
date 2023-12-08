@@ -1,0 +1,11 @@
+Você receberá um texto e terá de performar as seguintes ações:
+1 - Identifique as ações no texto e estime o tempo necessário para realizar elas. 
+2 - Retorne cada ação no formato: 
+Ação: Nome da ação(Tempo Estimado).
+  
+[INPUT]
+{{$input}}
+[END INPUT]
+
+Exemplo de referência:
+Ação: Lavar louça do almoço(20min).

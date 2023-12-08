@@ -1,0 +1,6 @@
+Você receberá um texto delimitado por três acentos graves com uma frase e terá de performar a seguinte ação:
+Identifique a mensagem que o texto quer passar. Reescreva a mensagem para um tom leve e formal, removendo partes ofensivas e excesso de palavras redundantes, torne a frase objetiva.
+
+[INPUT]
+{{$input}}
+[END INPUT]
